@@ -1,0 +1,44 @@
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  border-radius: 20px 0 0 20px; 
+  border: none;
+  height: 3rem;
+  width: 24rem; 
+  background-color: #f9f9f9;
+  padding: 1rem 1.5rem; 
+  font-size: 1rem; 
+  font-weight: 500;
+  outline: none;
+  transition: background-color 0.3s; 
+}
+
+input:focus {
+  background-color: #ffffff; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+div button {
+  height: 3rem;
+  width: 5rem;
+  font-size: 1rem;
+  border-radius: 0 20px 20px 0;
+  border: none;
+  background-color: #982952; 
+  color: white;
+  opacity: 0.9; 
+  transition: opacity 0.3s, transform 0.2s; 
+  outline: none;
+}
+
+div button:hover {
+  opacity: 1;
+  cursor: pointer;
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}

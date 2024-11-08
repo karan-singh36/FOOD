@@ -1,0 +1,94 @@
+/* Center the signup form */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4; /* Softer background color for a subtle, clean look */
+  padding: 1rem; /* Added padding to ensure content doesn't touch the edges on smaller screens */
+}
+
+/* Signup card styling */
+.signup-card {
+  width: 26rem; /* Slightly wider for more comfortable spacing */
+  padding: 2.5rem; /* Increased padding for a more spacious feel */
+  background-color: white;
+  border-radius: 1.2rem; /* Slightly more rounded corners for a softer look */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Enhanced shadow for a more pronounced card effect */
+  text-align: center;
+  transition: transform 0.3s ease; /* Subtle transform effect for interactivity */
+}
+
+.signup-card:hover {
+  transform: translateY(-5px); /* Card lift effect on hover */
+}
+
+h2 {
+  margin-bottom: 2rem; /* Increased spacing below the heading */
+  color: #2e151e; /* Warmer red tone for a friendly and inviting appeal */
+  font-size: 1.8rem; /* Slightly larger font size for emphasis */
+  font-weight: bold;
+}
+
+/* Form group styles */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem; /* Increased bottom margin for clearer separation */
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-size: 1rem; /* Increased font size for better readability */
+  color: #555; /* Softer dark color for a less harsh text appearance */
+}
+
+input {
+  padding: 0.9rem; /* Increased padding for a more comfortable input field */
+  border: 1px solid #ddd; /* Softer border color for a minimalist design */
+  border-radius: 0.6rem; /* Rounded corners for a modern input style */
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem; /* Unified font size for input */
+  transition: border-color 0.3s; /* Smooth transition for focus effect */
+}
+
+input:focus {
+  border-color: #2e151e; /* Accent border color on focus */
+  outline: none; /* Removed default outline for a cleaner look */
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 0.9rem; /* Increased padding for a more prominent button */
+  background-color: #2e151e; /* Warmer tone for the primary button */
+  color: white;
+  border: none;
+  border-radius: 0.6rem;
+  font-size: 1.1rem; /* Slightly larger font size for emphasis */
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Added smooth transition for background and scale */
+}
+
+button:hover {
+  background-color: #2e151e; /* Slightly darker shade for hover effect */
+  transform: scale(1.02); /* Subtle scale effect on hover */
+}
+
+/* Footer links */
+.signup-footer {
+  margin-top: 1.5rem; /* Increased margin for clearer separation */
+  font-size: 0.9rem; /* Uniform font size for footer text */
+}
+
+.signup-footer a {
+  color: #2e151e;
+  margin-left: 0.3rem;
+  font-weight: 500; /* Slightly bolder text for emphasis */
+  transition: color 0.2s;
+}
+
+.signup-footer a:hover {
+  color: #2e151e; /* Darker shade for hover effect */
+}
